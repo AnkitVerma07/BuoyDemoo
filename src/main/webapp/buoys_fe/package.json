@@ -1,0 +1,30 @@
+{
+  "name": "buoys_fe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "production": "webpack -p",
+    "start": "webpack-dev-server"
+  },
+  "author": "ankit.verma",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.14.0",
+    "raven-js": "^3.7.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-router": "^2.8.1",
+    "xml-parser": "^1.2.1",
+    "xml-reader": "^2.4.3",
+    "xmlreader": "^0.2.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-react": "^6.16.0",
+    "html-webpack-plugin": "^2.22.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
